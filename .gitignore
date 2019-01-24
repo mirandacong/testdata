@@ -1,3 +1,15 @@
 # Excel backup file of libre office
-*.xlsx#
+*.XLM#
+*.XLS#
+*.XLSX#
 *.xls#
+*.xlsm#
+*.xlsx#
+
+# Excel backup file of wps office
+.~*.XLS
+.~*.XLSM
+.~*.XLSX
+.~*.xls
+.~*.xlsm
+.~*.xlsx
