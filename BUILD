@@ -1,4 +1,3 @@
-package(default_visibility = ["//visibility:public"])
 exports_files(glob([
     '*.xls',
     '*.xlsx',
@@ -7,3 +6,17 @@ exports_files(glob([
     '*.XLSX',
     '*.XLSM',
 ]))
+
+filegroup(
+    name = 'all_files',
+    srcs = glob([
+        '*.xls',
+        '*.xlsx',
+        '*.xlsm',
+        '*.XLS',
+        '*.XLSX',
+        '*.XLSM',
+    ]),
+    visibility = ['//visibility:public'],
+)
+
